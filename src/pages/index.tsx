@@ -62,9 +62,14 @@ const Home: NextPage = () => {
                         Other operating systems may not work for this.
                     </p>
                     <br />
-                    <button className="bg-main rounded-full w-44 h-12 px-4 py-2 hover:text-main hover:bg-white duration-200 ease-in transition-all text-xl">
+                    <a
+                        href="https://github.com/acatiadroid/music-player/releases"
+                        rel="noopener noreferrer"
+                        target="__blank"
+                        className="bg-main rounded-full w-44 h-12 px-4 py-2 hover:text-main hover:bg-white duration-200 ease-in transition-all text-xl"
+                    >
                         Download
-                    </button>
+                    </a>
                 </section>
                 <section className="p-16 lg:px-16 px-0 text-md">
                     <p className="text-3xl" id="installation">
