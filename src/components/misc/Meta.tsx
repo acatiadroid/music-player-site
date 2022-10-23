@@ -9,10 +9,7 @@ export const Meta = () => (
             content="A simple music player created using Python and Tkinter to play music (or any audio) from YouTube or your computer! "
             property="og:description"
         />
-        <meta
-            content="https://acatiadroid.github.io/music-player/"
-            property="og:url"
-        />
+        <meta content="https://musicplayer.isgood.dev/" property="og:url" />
 
         <meta content="/musical_note.ico" property="og:image" />
         <meta content="#f24646" data-react-helmet="true" name="theme-color" />
