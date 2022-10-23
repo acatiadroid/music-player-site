@@ -3,16 +3,7 @@ import Link from "next/link";
 
 export const Sidebar = () => {
     return (
-        <div className="fixed left-0 w-44 bg-dark h-full p-2 flex flex-col text-white">
-            <Link href="/" className="pl-8">
-                <Image
-                    src="/music-player-site/musical_note.ico"
-                    height={72}
-                    width={72}
-                    alt="icon"
-                    className="w-[72px] h-[72px]"
-                />
-            </Link>
+        <div className="fixed left-0 w-44 mt-24 bg-dark h-full p-2 flex flex-col text-white">
             <div className="flex flex-col pl-2">
                 <div className="mx-0 my-6">
                     <a
