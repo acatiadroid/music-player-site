@@ -10,6 +10,7 @@ export const Sidebar = () => {
                     height={72}
                     width={72}
                     alt="icon"
+                    className="w-[72px] h-[72px]"
                 />
             </Link>
             <div className="flex flex-col pl-2">
