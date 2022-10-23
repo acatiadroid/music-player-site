@@ -98,16 +98,16 @@ const Home: NextPage = () => {
                                     size={24}
                                 />
                                 Download the latest release by clicking
-                                "Download" in the top-right corner of the
-                                website.
+                                &quot;Download&quot; in the top-right corner of
+                                the website.
                             </p>
                             <p className="flex border rounded-lg border-main p-1 m-2">
                                 <BsFillArrowRightCircleFill
                                     className="my-auto m-2 text-main"
                                     size={32}
                                 />
-                                Once you've downloaded the exe file, select the
-                                exe and run it as an Administrator. - This
+                                Once you&apos;ve downloaded the exe file, select
+                                the exe and run it as an Administrator. - This
                                 requires administrator due as it needs to create
                                 the music player files in the directory you
                                 specify.
@@ -127,7 +127,8 @@ const Home: NextPage = () => {
                                     size={24}
                                 />
                                 You can create a Desktop shortcut for the exe
-                                you've just created which will make it easier
+                                you&apos;ve just created which will make it
+                                easier
                             </p>
                         </div>
                         <br />
@@ -176,8 +177,8 @@ const Home: NextPage = () => {
                                         className="my-auto m-2 text-main"
                                         size={32}
                                     />
-                                    Move into the directory that's just been
-                                    created: (click to copy command) <br />
+                                    Move into the directory that&apos;s just
+                                    been created: (click to copy command) <br />
                                 </p>
                                 <div
                                     className="flex w-full h-12 rounded-lg bg-dark px-4 items-center justify-between cursor-pointer"
@@ -218,7 +219,7 @@ const Home: NextPage = () => {
                     <p className="text-lg font-bold">
                         Some common issues/errors that may occure when using the
                         music player are shown below. If you have an error that
-                        hasn't been documented, please report it on our{" "}
+                        hasn&apos;t been documented, please report it on our{" "}
                         <a
                             href=""
                             className="text-main underline underline-offset-2 decoration-main hover:decoration-white hover:text-white duration-150 ease-in-out transition-all"
@@ -235,7 +236,8 @@ const Home: NextPage = () => {
                     <p>
                         This is because the song list does not automatically
                         refresh when add something new. To update it, just click
-                        the "refresh" button at the top of the song list.
+                        the &quot;refresh&quot; button at the top of the song
+                        list.
                     </p>
                     <br />
                     <p className="text-lg font-semibold">

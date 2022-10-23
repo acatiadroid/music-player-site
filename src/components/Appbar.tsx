@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { RiMenu3Line } from "react-icons/ri";
 import { Sidebar } from "./Sidebar";
@@ -25,14 +26,14 @@ export const Appbar = () => {
     return (
         <>
             <div className="fixed bg-dark flex items-center h-24 w-full text-xl text-white py-0 px-10 select-none">
-                <a href="/" className="select-none">
+                <Link href="/" className="select-none">
                     <Image
                         src="/musical_note.ico"
                         height={72}
                         width={72}
                         alt="icon"
                     />
-                </a>
+                </Link>
                 <RiMenu3Line
                     size={40}
                     className="mx-20 hover:text-main duration-200 transition-all ease-in-out cursor-pointer"
