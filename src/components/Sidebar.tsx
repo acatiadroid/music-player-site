@@ -6,7 +6,7 @@ export const Sidebar = () => {
         <div className="fixed left-0 w-44 bg-dark h-full p-2 flex flex-col text-white">
             <Link href="/" className="pl-8">
                 <Image
-                    src="/musical_note.ico"
+                    src="/music-player-site/musical_note.ico"
                     height={72}
                     width={72}
                     alt="icon"

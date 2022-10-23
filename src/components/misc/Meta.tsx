@@ -14,8 +14,11 @@ export const Meta = () => (
             property="og:url"
         />
 
-        <meta content="/musical_note.ico" property="og:image" />
+        <meta
+            content="/music-player-site/musical_note.ico"
+            property="og:image"
+        />
         <meta content="#f24646" data-react-helmet="true" name="theme-color" />
-        <link rel="icon" href="/musical_note.ico" />
+        <link rel="icon" href="/music-player-site/musical_note.ico" />
     </Head>
 );
