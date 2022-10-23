@@ -147,6 +147,7 @@ const Home: NextPage = () => {
                                     href="https://github.com/acatiadroid/music-player#using-the-python-script-directly"
                                     className=" underline underline-offset-2 text-main decoration-main px-2 hover:decoration-white hover:text-white duration-200 transition-all ease-in-out"
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     all dependancies
                                 </a>
