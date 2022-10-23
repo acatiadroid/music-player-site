@@ -28,7 +28,7 @@ export const Appbar = () => {
             <div className="fixed bg-dark flex items-center h-24 w-full text-xl text-white py-0 px-10 select-none">
                 <Link href="/" className="select-none">
                     <img
-                        src="/music-player/musical_note.ico"
+                        src="/musical_note.ico"
                         height={72}
                         width={72}
                         alt="icon"
