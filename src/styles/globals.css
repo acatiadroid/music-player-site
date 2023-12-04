@@ -3,5 +3,5 @@
 @tailwind utilities;
 @font-face {
     font-family: "Cascadia Mono";
-    src: url(/CascadiaMono.ttf) format("truetype");
+    src: url(./CascadiaMono.ttf) format("truetype");
 }

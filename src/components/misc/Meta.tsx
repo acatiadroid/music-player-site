@@ -11,7 +11,7 @@ export const Meta = () => (
         />
         <meta content="https://musicplayer.isgood.dev/" property="og:url" />
 
-        <meta content="/musical_note.ico" property="og:image" />
+        <meta content="./musical_note.ico" property="og:image" />
         <meta content="#f24646" data-react-helmet="true" name="theme-color" />
         <link rel="icon" href="/musical_note.ico" />
     </Head>

@@ -25,10 +25,10 @@ export const Appbar = () => {
     // console.log(isResponsive);
     return (
         <>
-            <div className="fixed bg-dark flex items-center h-24 w-full text-xl text-white py-0 px-10 select-none">
+            <div className="fixed flex items-center w-full h-24 px-10 py-0 text-xl text-white select-none bg-dark">
                 <Link href="/" className="select-none">
                     <img
-                        src="/musical_note.ico"
+                        src="./musical_note.ico"
                         height={72}
                         width={72}
                         alt="icon"
@@ -36,7 +36,7 @@ export const Appbar = () => {
                 </Link>
                 <RiMenu3Line
                     size={40}
-                    className="mx-20 hover:text-main duration-200 transition-all ease-in-out cursor-pointer"
+                    className="mx-20 transition-all duration-200 ease-in-out cursor-pointer hover:text-main"
                     onClick={() => setVisible(!isVisible)}
                 />
                 <div className="fixed right-4">
@@ -44,7 +44,7 @@ export const Appbar = () => {
                         href="https://github.com/acatiadroid/music-player/releases"
                         rel="noopener noreferrer"
                         target="__blank"
-                        className="bg-main rounded-full px-4 py-2 hover:text-main hover:bg-white duration-200 ease-in transition-all"
+                        className="px-4 py-2 transition-all duration-200 ease-in rounded-full bg-main hover:text-main hover:bg-white"
                     >
                         Download
                     </a>
